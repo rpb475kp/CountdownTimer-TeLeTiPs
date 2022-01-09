@@ -86,7 +86,7 @@ async def callback_query(client: Client, query: CallbackQuery):
     elif query.data=="TUTORIAL_CALLBACK":
         TELETIPS_TUTORIAL_BUTTONS = [
             [
-                InlineKeyboardButton("🎥 Video", url="https://t.me/TeLeTiPsOfficialChannel/462")
+                InlineKeyboardButton("🎥 Video", url="#")
             ],
             [
                 InlineKeyboardButton("⬅️ BACK", callback_data="START_CALLBACK"),
